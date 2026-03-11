@@ -1,0 +1,113 @@
+name: "Abhilash Sahoo"
+email: "asahoo4@gmail.com"
+github: "asahoo4"
+linkedin: ""
+twitter: ""
+website: ""
+cli: "claude-code"
+
+sections:
+  - hero
+  - about
+  - experience
+  - projects
+  - contact
+
+design:
+  creativity: 5
+  simplicity: 8
+  playfulness: 5
+  animation: 5
+  color_intensity: 3
+design_inspirations:
+  - name: "Neobrutalism"
+    # Extracted attributes (use these programmatically)
+    attributes:
+      fontFamily: "Bold"
+      fontSize: 16
+      fontWeight: 400
+      letterSpacing: "normal"
+      colorBg: "#000000"
+      colorText: "#ffffff"
+      colorAccent: "#5e6ad2"
+      maxWidth: 8
+      alignment: "left"
+      sectionSpacing: 36
+      padding: 40
+      motionDuration: 200
+      motionStyle: "snap"
+      borderWidth: 1
+      borderRadius: 0
+    # Original descriptions (for reference)
+    descriptions:
+      typography: "Bold sans-serif headers (800+ weight), monospace body"
+      colors: "Black backgrounds, white text, neon accent (yellow/cyan)"
+      layout: "Boxy cards, thick borders (4-8px), no border-radius"
+      spacing: "Generous padding (24-48px), clear sections"
+      motion: "Sharp snap animations, no easing curves"
+      details: "Heavy drop shadows (8-12px), stark borders, grid-based"
+  - name: "Mono Company"
+    # Extracted attributes (use these programmatically)
+    attributes:
+      fontFamily: "Monospace"
+      fontSize: 15
+      fontWeight: 400
+      letterSpacing: "normal"
+      colorBg: "#000000"
+      colorText: "#ffffff"
+      colorAccent: "#5e6ad2"
+      maxWidth: 1200
+      alignment: "centered"
+      sectionSpacing: 8
+      padding: 40
+      motionDuration: 200
+      motionStyle: "fade"
+      borderWidth: 1
+      borderRadius: 0
+    # Original descriptions (for reference)
+    descriptions:
+      typography: "Monospace everywhere (IBM Plex Mono), 14-16px"
+      colors: "True monochrome (black/white/grays), no color"
+      layout: "Fixed-width (1200px max), centered, strict grid"
+      spacing: "Consistent 8px grid, mathematical spacing"
+      motion: "Minimal hover states, fade transitions only"
+      details: "Thin borders (1px), subtle shadows, pixel-perfect alignment"
+  - name: "The Pudding"
+    # Extracted attributes (use these programmatically)
+    attributes:
+      fontFamily: "Bold"
+      fontSize: 70
+      fontWeight: 400
+      letterSpacing: "normal"
+      colorBg: "#000000"
+      colorText: "#ffffff"
+      colorAccent: "#5e6ad2"
+      maxWidth: 1200
+      alignment: "left"
+      sectionSpacing: 150
+      padding: 40
+      motionDuration: 200
+      motionStyle: "fade"
+      borderWidth: 1
+      borderRadius: 0
+    # Original descriptions (for reference)
+    descriptions:
+      typography: "Bold serif headlines (60-80px), sans body (18-21px)"
+      colors: "Vibrant accent colors, white/cream backgrounds"
+      layout: "Asymmetric columns (70/30 split), overlapping elements"
+      spacing: "Generous (100-200px section gaps), breathable"
+      motion: "Scroll-triggered animations, data visualizations"
+      details: "Large pull quotes, colored text blocks, image/text overlap"
+
+content:
+  tone: "professional"
+  length: "balanced"
+  focus: "projects"
+
+ai:
+  quality_bar: 7
+  research_depth: 6
+  copy_creativity: 5
+
+notes: |
+  I am a associate research scientist working on coarse grained models and multiscale molecular simulations to understand the building blocks of life. The website here needs to be tethered towards academia. I prefer minimalist designs, nimble and sleek. Here are a few inspirations: 1) https://pilarcossio.org/about; 2) https://robertavaltorta.research.st/ . This is my prior website -- feel free to use words/concepts from here: https://sites.google.com/view/asahoo/

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,20 +8,34 @@ const inter = Inter({
   display: "swap",
 });
 
+const poppins = Poppins({
+  variable: "--font-heading",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Personal portfolio",
+  title: "Abhilash Sahoo",
+  description:
+    "Associate Research Scientist at the Flatiron Institute (Simons Foundation), working on multiscale molecular simulations and machine learning for biophysics.",
+  openGraph: {
+    title: "Abhilash Sahoo",
+    description:
+      "Associate Research Scientist at the Flatiron Institute, working on multiscale molecular simulations and machine learning for biophysics.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <body
-        className={`${inter.variable} antialiased bg-neutral-950 text-neutral-100`}
+        className="antialiased bg-white text-[#333]"
         suppressHydrationWarning
       >
         {children}
