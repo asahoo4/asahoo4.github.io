@@ -309,7 +309,7 @@ export default function Home() {
     <>
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-[#eee]">
-        <div className="max-w-[960px] mx-auto px-6 h-[60px] flex items-center justify-between">
+        <div className="max-w-[700px] mx-auto px-6 h-[60px] flex items-center justify-between">
           <a
             href="#"
             className="font-heading text-sm font-semibold text-black tracking-wide"
@@ -347,7 +347,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="max-w-[960px] mx-auto px-6">
+      <main className="max-w-[700px] mx-auto px-6">
         {/* Hero */}
         <section className="pt-20 pb-6">
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-black mb-3 leading-[1.1] tracking-tight">
@@ -702,7 +702,7 @@ export default function Home() {
 
       {/* Dog — a fun coda */}
       <div className="border-t border-[#eee] mt-4">
-        <div className="max-w-[960px] mx-auto px-6 py-16 flex flex-col items-center">
+        <div className="max-w-[700px] mx-auto px-6 py-16 flex flex-col items-center">
           <div className="relative w-72 h-52 overflow-hidden rounded-sm">
             <Image
               src="/images/dog.jpg"
@@ -718,7 +718,7 @@ export default function Home() {
       </div>
 
       <footer className="border-t border-[#eee] py-8">
-        <div className="max-w-[960px] mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-[700px] mx-auto px-6 flex items-center justify-between">
           <span className="text-[11px] text-[#767676]">
             Abhilash Sahoo &middot; Flatiron Institute &middot; New York
           </span>
