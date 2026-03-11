@@ -298,7 +298,7 @@ function IconLink({
       aria-label={label}
     >
       {icon}
-      <span className="text-[13px]">{label}</span>
+      <span className="text-sm">{label}</span>
     </a>
   );
 }
@@ -309,14 +309,14 @@ export default function Home() {
     <>
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-[#eee]">
-        <div className="max-w-[700px] mx-auto px-6 h-[60px] flex items-center justify-between">
+        <div className="max-w-[820px] mx-auto px-6 h-[60px] flex items-center justify-between">
           <a
             href="#"
             className="font-heading text-sm font-semibold text-black tracking-wide"
           >
             Abhilash Sahoo
           </a>
-          <div className="flex items-center gap-5 font-heading text-[11px] font-medium tracking-[0.14em] uppercase text-[#888]">
+          <div className="flex items-center gap-5 font-heading text-[12px] font-medium tracking-[0.14em] uppercase text-[#888]">
             <a
               href="#about"
               className="hover:text-black transition-colors duration-150"
@@ -347,7 +347,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="max-w-[700px] mx-auto px-6">
+      <main className="max-w-[820px] mx-auto px-6">
         {/* Hero */}
         <section className="pt-20 pb-6">
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-black mb-3 leading-[1.1] tracking-tight">
@@ -413,7 +413,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="space-y-4 text-[15px] text-[#333] leading-[1.75]">
+            <div className="space-y-4 text-base text-[#333] leading-[1.8]">
               <p>
                 I am an Associate Research Scientist at the{" "}
                 <a
@@ -558,10 +558,10 @@ export default function Home() {
               },
             ].map((update) => (
               <div key={update.date} className="flex flex-col sm:flex-row gap-1 sm:gap-4 sm:items-baseline">
-                <span className="text-[12px] font-heading font-medium text-[#767676] flex-shrink-0 sm:w-16">
+                <span className="text-[13px] font-heading font-medium text-[#767676] flex-shrink-0 sm:w-16">
                   {update.date}
                 </span>
-                <p className="text-[14px] text-[#555] leading-relaxed">
+                <p className="text-[15px] text-[#555] leading-relaxed">
                   {update.text}{" "}
                   <a
                     href={update.url}
@@ -611,18 +611,18 @@ export default function Home() {
                         className="object-contain p-3"
                       />
                     </div>
-                    <p className="text-[11px] text-[#777] mt-2 leading-snug italic">
+                    <p className="text-[12px] text-[#777] mt-2 leading-snug italic">
                       {theme.caption}
                     </p>
                   </div>
                   <div>
-                    <h3 className="font-heading text-[15px] font-semibold text-black mb-2.5">
+                    <h3 className="font-heading text-[17px] font-semibold text-black mb-2.5">
                       {theme.title}
                     </h3>
-                    <p className="text-[13px] text-[#555] leading-[1.7] mb-3">
+                    <p className="text-[15px] text-[#555] leading-[1.7] mb-3">
                       {theme.description}
                     </p>
-                    <div className="text-[11px] text-[#737373] leading-relaxed">
+                    <div className="text-[12px] text-[#737373] leading-relaxed">
                       <span className="uppercase tracking-wider font-medium text-[#767676]">
                         Key papers
                       </span>
@@ -650,7 +650,7 @@ export default function Home() {
           <h2 className="font-heading text-2xl font-semibold text-black mb-2">
             Publications
           </h2>
-          <p className="text-[11px] text-[#767676] mb-10">
+          <p className="text-[12px] text-[#767676] mb-10">
             * equal contribution &nbsp;&middot;&nbsp; &dagger;
             corresponding/senior author
           </p>
@@ -659,7 +659,7 @@ export default function Home() {
             {[...publications].reverse().map((pub) => (
               <div key={pub.id} className="group">
                 <div className="border-l-2 border-[#f0f0f0] group-hover:border-[#006ba1] pl-4 transition-colors duration-150">
-                  <p className="text-[13px] text-[#333] leading-relaxed">
+                  <p className="text-[15px] text-[#333] leading-relaxed">
                     <span className="text-[#666]">
                       <HighlightAuthor text={pub.authors} />
                     </span>{" "}
@@ -673,7 +673,7 @@ export default function Home() {
                     )}
                     {pub.pages && <>, {pub.pages}</>}.
                     {pub.note && (
-                      <span className="text-[11px] text-[#777]">
+                      <span className="text-[12px] text-[#777]">
                         {" "}
                         ({pub.note})
                       </span>
@@ -685,7 +685,7 @@ export default function Home() {
                           href={pub.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#006ba1] text-[11px] hover:underline underline-offset-2"
+                          className="text-[#006ba1] text-[12px] hover:underline underline-offset-2"
                         >
                           [PDF]
                         </a>
@@ -702,7 +702,7 @@ export default function Home() {
 
       {/* Dog — a fun coda */}
       <div className="border-t border-[#eee] mt-4">
-        <div className="max-w-[700px] mx-auto px-6 py-16 flex flex-col items-center">
+        <div className="max-w-[820px] mx-auto px-6 py-16 flex flex-col items-center">
           <div className="relative w-72 h-52 overflow-hidden rounded-sm">
             <Image
               src="/images/dog.jpg"
@@ -718,11 +718,11 @@ export default function Home() {
       </div>
 
       <footer className="border-t border-[#eee] py-8">
-        <div className="max-w-[700px] mx-auto px-6 flex items-center justify-between">
-          <span className="text-[11px] text-[#767676]">
+        <div className="max-w-[820px] mx-auto px-6 flex items-center justify-between">
+          <span className="text-[12px] text-[#767676]">
             Abhilash Sahoo &middot; Flatiron Institute &middot; New York
           </span>
-          <span className="text-[11px] text-[#ddd]">
+          <span className="text-[12px] text-[#ddd]">
             {new Date().getFullYear()}
           </span>
         </div>
